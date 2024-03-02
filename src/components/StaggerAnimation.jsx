@@ -47,7 +47,7 @@ export default function StaggerAnimation() {
         <motion.button
           whileTap={{ scale: 0.97 }}
           onClick={() => setIsOpen(!isOpen)}
-          className="bg-white w-full flex justify-between p-3 rounded"
+          className="bg-white text-green-500 w-full flex justify-between p-3 rounded"
         >
           Menu
           <div className="arrow" style={{ transformOrigin: "50% 55%" }}>
@@ -56,7 +56,7 @@ export default function StaggerAnimation() {
             </svg>
           </div>
         </motion.button>
-        <ul className="bg-white p-3 mt-3 rounded">
+        <ul className="bg-white p-3 mt-3 rounded text-green-600">
           <li>Item 1 </li>
           <li>Item 2 </li>
           <li>Item 3 </li>
